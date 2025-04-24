@@ -9,5 +9,6 @@ tone(1000)
 Tone(  500,  1 )
          Tone( 4000,  1 )
          Tone( 2500,  1 )
+memowrit( "/tmp/rover.txt" , time() )
 
 RETURN NIL
