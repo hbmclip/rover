@@ -1,0 +1,6 @@
+FUNCTION MAIN
+
+tone(1000)
+? "Beep"
+
+RETURN NIL
