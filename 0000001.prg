@@ -1,5 +1,7 @@
 PROCEDURE MAIN
 
-     MEMOWRIT("/tmp/xectyslmdkiuxclip.tmp","")
+     LOCAL c := "/tmp/xectyslmdkiuxclip.tmp"
+     MEMOWRIT( c ,"")
+     ? "Create " , c
 
 RETURN 
