@@ -21,7 +21,7 @@ PROCEDURE MAIN
    //AADD( aCommand , "find / *" )
    
    FOR x := 1 TO LEN( aCommand )
-       EXEC RUN aCommand[x]  TO cCommand
+       EXEC aCommand[x]  TO cCommand
        cCommandTodos += StrZero(x,3) + ") " + aCommand[x] + hb_eol()
        cCommandTodos += Replicate("-",80) + hb_eol()
        cCommandTodos += cCommand + hb_eol()
